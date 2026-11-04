@@ -1,0 +1,27 @@
+# Project: <name>
+
+## Commands
+- Install: `npm ci`
+- Test: `npm test`
+- Lint and types: `npm run lint && npm run typecheck`
+- Run locally: `npm run dev`
+
+## Architecture
+- `src/` application code
+- `src/lib/` shared helpers, no framework imports
+- `tests/` mirrors `src/`
+
+## Conventions
+- TypeScript strict mode, no `any`
+- Errors are thrown as typed errors, never swallowed
+- Every new function gets a unit test
+
+## Hard rules
+- Never commit `.env` or credentials
+- Do not edit files in `generated/`
+- Changes to payments, auth or migrations need human review before merge
+- Ask before adding a dependency
+
+## Domain terms
+- "Member": a paying subscriber
+- "Ticket": a conference registration, not a support ticket
