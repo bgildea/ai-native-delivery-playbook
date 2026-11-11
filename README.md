@@ -47,6 +47,10 @@ flowchart LR
 - Never paste secrets, customer data or payment details into a prompt
 - Write down what went wrong. The failure log is the most useful file in this repo
 
+## Licence
+
+MIT. See [LICENSE](LICENSE).
+
 ---
 
 Barry Gildea · Technical Product Owner and AI-native developer · [github.com/bgildea](https://github.com/bgildea)
