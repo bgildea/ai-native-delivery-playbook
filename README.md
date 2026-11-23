@@ -1,5 +1,7 @@
 # AI-native delivery playbook
 
+![Chapters: 6](https://img.shields.io/badge/chapters-6-blue) ![Built with Claude Code](https://img.shields.io/badge/built%20with-Claude%20Code-orange) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 How I ship software with Claude Code as a core part of the team, written down so it can be repeated, reviewed and taught.
 
 The short version: AI makes the typing cheap, so the scarce things become clear specs, good context, small reviewable changes and real tests. This playbook is about those.
